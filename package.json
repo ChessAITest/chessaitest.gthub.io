@@ -3,13 +3,13 @@
     "description": "Contoso Spaces console application",
     "version": "1.0.0",
     "license": "MIT",
-    "main": "app.js",
+    "main": "src/index.js",
     "bin": {
-        "contosospaces": "./app.js"
+        "contosospaces": "./src/index.js"
     },
     "type": "module",
     "scripts": {
-        "start": "node app.js"
+        "start": "node src/index.js"
     },
 "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
